@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+}
+.playlist {
+    display: flex;
+    justify-content: center;
+}
+.song-list{
+	list-style-type: none;
+	background-color: white;
+	width:680px;
+	border: 2px solid black;
+    padding: 20px;
+	border-radius:7px;
+}
+.song-list li {
+    padding: 10px 0;
+    text-align: left;
+}
+.song-list li a {
+    text-decoration: none;
+    color: black;
+}
+.song-list li a:hover{
+	color:blue;
+}
+.players{
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+video, audio {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
