@@ -29,7 +29,7 @@ h1, h2 {
 .song-list li a:hover{
 	color:blue;
 }
-.players{
+.player_one, .player_two{
 	background-color: rgb(255, 255, 255);
 	padding: 20px;
     border-radius: 10px;
